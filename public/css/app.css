@@ -1,0 +1,85 @@
+body
+{
+    background-color: #e0e0e0;
+    margin: auto;
+    font-family: 'Red Hat Mono', monospace;
+
+}
+.entete
+{
+
+    background-color: gray;
+    height: 150px;
+    padding-left: 150px;
+    font-size: 25px;
+}
+
+#logo
+{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+#pied
+{
+    background-color: #AAAAAA;
+    height: 50px;
+    text-align: center;
+    margin-top: 400px;
+}
+.list
+{
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+    font-size: 20px;
+    color: #B0413E;
+}
+alert {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.alert-success {background-color: #a2a232;}
+.alert-error {background-color: #d4550e;}
+/* formulaires */
+label {
+    display: block;
+}
+input, textarea, select {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 1rem;
+}
+button {
+    padding: 0.5rem 0.7rem;
+    font-family: inherit;
+}
+
+.flash {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+.flash-success {background-color: lawngreen}
+
+.corp
+{
+    width: 700px;
+    padding-left: 150px;
+}
+.connection
+{
+    margin: 10px
+}
+.user_nav
+{
+    margin-left: 50px;
+}

@@ -1,0 +1,18 @@
+<nav>
+    <a href="{{ path('main_home') }}" title="Home">Home</a>
+    <a href="{{ path('main_about') }}" title="About Us">AboutUs</a>
+    <a href="{{ path('wish_list') }}" title="List">List</a>
+
+    {% if app.user %}
+         <a href="{{ path('wish_create') }}" title="Create">Create your Idea</a>
+         <a href="{{ path('app_logout') }}" title="Logout">Logout </a>Hello {{ app.user.userIdentifier }}
+
+    {% else %}
+
+            <a href="{{ path('app_register') }}" title="Register">Register</a>
+            <a href="{{ path('app_login') }}" title="Login">Login</a>
+
+
+    {% endif %}
+
+</nav>

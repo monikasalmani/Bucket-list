@@ -1,0 +1,20 @@
+{% extends 'main/base.html.twig' %}
+
+{% block pied %}
+    Details {{ parent() }}
+{% endblock %}
+
+{% block body %}
+<div class="list">
+   <div>
+       <h2>{{ wish.title }} [{{ wish.category.name }}]</h2>
+   </div>
+    <div>
+        {{ wish.description }}
+    </div>
+    <div>
+        {{ wish.author }}
+
+    </div>
+</div>
+{% endblock %}
